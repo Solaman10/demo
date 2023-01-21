@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+<web-app>
+
+    <servlet>
+        <servlet-name>My servlet</servlet-name>
+        <servlet-class>org.servlet.getCurncyVal</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>My servlet</servlet-name>
+        <url-pattern>/servlet/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
